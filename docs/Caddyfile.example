@@ -1,0 +1,6 @@
+# 把域名改为你拥有并已指向服务器的真实域名。
+# 宿主机运行 Caddy，应用仍只监听 127.0.0.1:8765。
+parts.example.com {
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:8765
+}

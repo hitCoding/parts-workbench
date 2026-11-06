@@ -1,0 +1,14 @@
+services:
+  parts:
+    build: .
+    ports:
+      - "${PARTS_BIND:-127.0.0.1}:${PARTS_PORT:-8765}:8765"
+    environment:
+      PARTS_ALLOWED_HOSTS: ${PARTS_ALLOWED_HOSTS:-localhost,127.0.0.1}
+      PARTS_SETUP_TOKEN: ${PARTS_SETUP_TOKEN:?请在 .env 中设置首次初始化口令}
+      PARTS_SECURE_COOKIE: ${PARTS_SECURE_COOKIE:-0}
+    volumes:
+      - parts-store:/store
+    restart: unless-stopped
+volumes:
+  parts-store:

@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+data/*
+!data/.gitkeep
+backups/*
+!backups/.gitkeep
+*.log
+.runtime/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+# Local screenshots and BOM reviews may contain real inventory/order data.
+/docs/*.png
+/docs/bom-matching-review.md
