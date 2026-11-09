@@ -179,7 +179,7 @@ Compose 配置已校验；Docker 镜像尚未在本次环境中构建运行，�
 如果料格对你的硬件 DIY 有帮助，欢迎点一个 Star，也可以通过微信赞赏支持项目持续维护。感谢支持！
 
 <p align="center">
-  <img src="docs/donate/wechat.jpg" alt="微信赞赏码：感谢支持料格" width="360">
+  <img src="docs/donate/wechat.jpg" alt="微信赞赏码：感谢支持料格" width="220">
 </p>
 
 赞赏完全自愿，不影响项目的正常使用。
